@@ -1,5 +1,67 @@
-.test {
-    background-color: red;
-    width: 50px;
-    height: 50px;
+html {
+    min-height: 100vh;
+}
+
+
+/* * {
+    box-sizing: border-box;
+}
+ */
+
+body {
+    margin: 0;
+   
+}
+
+
+h1 {
+    margin: 0;
+}
+
+
+/* Game logo position */
+.theme-title {
+    background: url(/assets/images/farm/game-logo.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+
+/* Game background */
+#game-background {
+    height: 100vh;
+    background: url(/assets/images/farm/farm-bg-img.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Menu */
+.menu-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid red;
+    width: 500px;
+    background-color: black;
+}
+
+#menu {
+    display: grid;
+    margin: 10px;
+}
+
+.menu-button {
+    height: 80px;
+    margin: 20px;
+    
 }
